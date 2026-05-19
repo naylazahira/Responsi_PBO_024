@@ -1,6 +1,5 @@
 # responsi PBO nim 123240024
 ---
-## TW btw mas di pc ini maven nya error udah ditambahin dependencies di pom nya gabisa jadi semoga aja jalan yh programnya aamiin
 ### cara running program
 1. pastikan sudah konek xampp
 2. buat database dengan nama cart_db
