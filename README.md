@@ -1,6 +1,6 @@
-### responsi PBO nim 123240024
+# responsi PBO nim 123240024
 ---
-# cara running program
+### cara running program
 1. pastikan sudah konek xampp
 2. buat database dengan nama cart_db
 3. download zip folder diatas dan extract file
@@ -8,7 +8,7 @@
 5. buka project responsi yang sudah di extract
 6. running program berhasil, silahkan mencoba program
 
-# yang dilakukan selama responsi
+### yang dilakukan selama responsi
 1. menggunakan pola arsitektur MVC
 2. membuat COnnectionDb sebagai koneksi dari file ke database supaya file bisa menyimpan data
 3. membuat class CartRepositoryMySQL di model untuk menggantikan fake repository (data lokal)
