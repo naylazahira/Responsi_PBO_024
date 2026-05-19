@@ -23,8 +23,9 @@ public class CartRepositoryMySQL implements CartRepository{
         initTable();
     }
     private void initTable(){
-        String ddl = "CREATE TAB;E IF NOT EXIST cart_items("
+        String ddl = "CREATE TABLE IF NOT EXIST cart_items("
                 + "id INT AUTO_INCREMENT PRIMARY KEY,"
+                + "name VARCHAR(255) NOT NULL UNIQUE,"
                 + "price DOUBLE NOT NULL"
                 + "quantity INT NOT NULL"
                 + ")";
